@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%; 
+}
+
+section{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    position: relative;
+}
+
+#secStart{
+    background-color: black;
+    min-height: 100vh;
+
+}
+#secAboutMe{
+    background: #fdaead;
+    min-height:100vh;
+    word-wrap: normal;
+    padding: 5%;
+    
+    
+}
+#secAboutMe p{
+
+
+}
+
+#secSkills{
+
+}
+#secProject{
+
+}
+
