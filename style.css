@@ -24,14 +24,47 @@ section{
     
 }
 #secAboutMe p{
-
-
-}
-
-#secSkills{
-
-}
-#secProject{
+    margin-left: 5%;
+    margin-right: 55%;
+    margin-top: 5%;
+    margin-bottom: 50%;
 
 }
+#secAboutMe img{
+    width: 20%;
+    height: 20%;
+    margin-left: 50%;
+}
+.js{
+    margin-right: 5%;
+    margin-left: 20%;
+}
+.html{
+    margin-right: 20%;
+    margin-left: 5%;
+}
+.css{
+    margin-right: 5%;
+    margin-left: 20%;
+}
+.react{
+    margin-right: 20%;
+    margin-left: 5%;
+}
+.git{
+    margin-right: 5%;
+    margin-left: 20%;
+}
+.github{
+    margin-right: 20%;
+    margin-left: 5%;
+}
 
+
+
+
+.ht{
+    margin: 3%;
+    margin-left: 40%;
+
+}
