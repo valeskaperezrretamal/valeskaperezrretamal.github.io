@@ -1,6 +1,12 @@
 #secContact{
     height: 300px;
 }
-
+#secContact h3{
+    margin: 5%;
+    margin-left: 40%
+}
+#secContact img{
+    margin-left: 18%;
+}
 
     
