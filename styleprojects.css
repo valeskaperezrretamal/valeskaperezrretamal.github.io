@@ -1,0 +1,13 @@
+#secProject{
+    background:#fdaead;
+    min-height: 100vh;
+    word-wrap: normal;
+    padding: 5%;
+}
+#secProject h3{
+    text-align: center;
+    margin: 5%;
+}
+#secProject img{
+    margin-left: 6%;
+}

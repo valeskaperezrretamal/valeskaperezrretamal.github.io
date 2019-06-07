@@ -10,31 +10,8 @@ section{
     position: relative;
 }
 
-#secStart{
-    background-color: black;
-    min-height: 100vh;
 
-}
-#secAboutMe{
-    background: #fdaead;
-    min-height:100vh;
-    word-wrap: normal;
-    padding: 5%;
     
-    
-}
-#secAboutMe p{
-    margin-left: 5%;
-    margin-right: 55%;
-    margin-top: 5%;
-    margin-bottom: 50%;
-
-}
-#secAboutMe img{
-    width: 20%;
-    height: 20%;
-    margin-left: 50%;
-}
 /*
 .js{
     margin-right: 5%;
@@ -63,12 +40,3 @@ section{
 
 
 
-
-.ht{
-    margin: 3%;
-    margin-left: 40%;
-
-}
-#secSkills img{
-margin-left: 10%;
-}

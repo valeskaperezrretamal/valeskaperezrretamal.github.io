@@ -1,12 +1,29 @@
 #secContact{
+    background:white;
+    min-height: 100vh;
+    word-wrap: normal;
+    padding: 5%;
+}
+#secContact{
     height: 300px;
 }
 #secContact h3{
-    margin: 5%;
-    margin-left: 40%
+    text-align: center;
 }
 #secContact img{
+    margin: 10%;
     margin-left: 18%;
+
 }
+.btn-secondary{
+    position: fixed;
+   margin-left: 80%;
+   
+}
+    
+
+
+
+
 
     

@@ -9,7 +9,8 @@
   cursor: pointer;
   border: 1em solid #fdaead;
   top: 45vh;
-  left: 45vw;
+  left: 35vw;
+
 }
 .menu img {  
   height:100%;
@@ -17,7 +18,7 @@
   border-radius: 10em;
 }
 .menu li{
-  width: .5em;
+  width: .8em;
   word-wrap: break-word;
   text-align: center;
   line-height: 1em;

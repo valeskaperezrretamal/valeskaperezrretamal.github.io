@@ -1,0 +1,18 @@
+#secSkills{
+    background:white;
+    min-height: 100vh;
+    word-wrap: normal;
+    padding: 5%;
+    
+}
+
+
+#secSkills h3{
+    text-align: center;
+    margin-bottom: 20%;
+
+}
+#secSkills img{
+    margin-left: 8%;
+    
+}
