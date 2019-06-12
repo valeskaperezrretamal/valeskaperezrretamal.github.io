@@ -17,7 +17,7 @@
     <title></title>
 </head>
 <body>
-    <div class="container">
+    <div class="container-float">
         <div class="row">
             <div class="col-sm-12"></div>
         </div>
@@ -30,18 +30,24 @@
             <div class="col-sm-12"></div>
         </div>
         <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,800' rel='stylesheet' type='text/css'>
-    <section id="secStart">
-        <div class="menu">
-            <img src="https://comps.canstockphoto.es/perfil-mujer-caricatura-eps-vectorial_csp32772148.jpg">
-            <ul>
+    <nav class="mobile-menu"><div class="navBar">
+            <label for="show-menu" class="show-menu"><span>Menu</span><div class="lines"></div></label>
+            <input type="checkbox" id="show-menu">
+            <a href="#secStart"><img src="https://comps.canstockphoto.es/perfil-mujer-caricatura-eps-vectorial_csp32772148.jpg" ></a>
+            <ul id="menu">
               <li><a href="#secAboutMe">Sobre mi</a></li>
               <li><a href="#secSkills">Habilidades</a></li>
               <li><a href="#secProject">Proyectos</a></li>
               <li><a href="#secContact">Contacto</a></li>
             </ul>
-        </div>
+        </div></nav>
+    <section id="secStart">            
+        
+        
             
     </section>
+    
+    
     <section id="secAboutMe">
         <h3>Sobre mi</h3>
         <span><img src="escribir.gif" alt="">
@@ -58,12 +64,12 @@
     </section>
     <section id="secSkills">
         <h3>Mis Habilidades técnicas</h3>
-       <img class="js" src="javascript.png" alt="javascript">
-       <img class="html" src="html5.png" alt="HTML 5">
-       <img class="css" src="css3.png" alt="CSS 3">
-       <img class="react" src="react.png" alt="REACT">
-       <img class="git" src="git.png" alt="Git">
-       <img class="github" src="github.png" alt="GitHub">
+       <img data-aos="fade-up" class="js" src="javascript.png" alt="javascript">
+       <img data-aos="fade-up"class="html" src="html5.png" alt="HTML 5">
+       <img data-aos="fade-up"class="css" src="css3.png" alt="CSS 3">
+       <img data-aos="fade-up"class="react" src="react.png" alt="REACT">
+       <img data-aos="fade-up"class="git" src="git.png" alt="Git">
+       <img data-aos="fade-up"class="github" src="github.png" alt="GitHub">
 
     </section>
     <section id="secProject">
@@ -82,6 +88,8 @@
         <button type="button" class="btn btn-secondary">Volver</button>
     </section>
 </div>
+<script src="app.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script> AOS.init(); </script>
 </body>
 </html>

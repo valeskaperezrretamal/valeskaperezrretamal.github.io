@@ -1,9 +1,18 @@
-#secStart{
+/*#secStart{
     background-color: black;
     min-height: 100vh;
+    
+   
     
 
 }
 #secStart{
     text-align: center;
 }
+
+#secStart .ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.7;
+  }
+*/

@@ -1,4 +1,4 @@
-.menu { 
+/*.menu { 
   position: absolute;
   width: 10em;
   height: 10em;
@@ -9,7 +9,7 @@
   cursor: pointer;
   border: 1em solid #fdaead;
   top: 45vh;
-  left: 35vw;
+  left: 40vw;
 
 }
 .menu img {  
@@ -61,4 +61,191 @@
   position: absolute;
   left: 15em;
   top: -4em;
+}*/
+
+
+/*color del fondo de esta sección*/
+.navBar {
+  position: fixed;
+  background: black;
+  top: 0;
+  left:0;
+  height: 50px;
+  width: 100%;  
+  float: right;
+  z-index: 99;
+  
+}
+/* estilo imagén*/
+.navBar img{
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  float: left;
+  z-index: 100;
+  top: 0%;
+  left: 0%;
+  
+  
+}
+
+.navBar ul{padding-left: 30px;}
+.navBar li{
+  padding-top:10px;
+  float: left;
+  padding-left: 30px;
+}
+.navBar a{ text-decoration: none;}
+
+.navBar a:hover{background: #0b76a6;}
+
+*{
+  margin:0;
+  padding:0;
+}
+body {
+	font-family: Helvetica, Arial, sans-serif;
+  font-size:16px;
+}
+.mobile-menu {
+  display:block;
+  width:100%;
+background: #fdaead/*e0b88f/*c99393/*e5d1a4/*dcc591/*EFD3A3*/;
+line-height: 1.6em;
+font-weight: 400;
+width:100%;
+text-align:center;
+	position: relative;
+  margin:0 auto;
+}
+/*para relleno de la lista ul*/
+.mobile-menu ul {
+	list-style-type:none;
+  margin: 0 auto;
+  padding-left:0;
+  text-align:center;
+  width:100%;
+  position: absolute;
+  background: #fdaead;
+}
+
+/*para lista horizonal*/
+.mobile-menu li {
+	display:inline-block;
+	/*float: left;
+	margin-right: 1px;*/
+}
+
+/*estilo, para enlace de menú*/
+.mobile-menu li a {
+	display:block;
+	min-width:140px;
+	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
+  text-transform:uppercase;
+	background: #fdaead;
+	text-decoration: none;
+  margin-left:-5px;
+  padding: 10px 0;  
+-webkit-transition: all 0.4s ease 0s;
+-moz-transition: all 0.4s ease 0s;
+-ms-transition: all 0.4s ease 0s;
+-o-transition: all 0.4s ease 0s;
+transition: all 0.4s ease 0s;
+}
+
+/*estilo, enlace nivel superior*/
+.mobile-menu li:hover a {
+	color: #fdaead;
+  background-color:#ccddee;
+}
+
+/*Estilo, enlace desplegable*/
+.mobile-menu li:hover ul a {
+	background: #f3f3f3;
+	color: #2f3036;
+	height: 40px;
+	line-height: 40px;
+}
+
+/*Estado de desplazamiento, enlace vertical*/
+.mobile-menu li:hover .mobile-menu ul a:hover {
+	color: #fdaead;
+}
+
+/*ocultar enlaces desplegables, hasta que se ocupen*/
+.mobile-menu li ul {
+	display: none;
+}
+
+/*enlace desplegable, vertical*/
+.mobile-menu li ul li {
+	display: block;
+	float: none;
+}
+
+/*ajuste del texto*/
+.mobile-menu li ul li a {
+	width: auto;
+	min-width: 100px;
+	padding: 0 20px;
+}
+
+
+/*boton mostrar menú*/
+.mobile-menu .show-menu {
+	text-decoration: none;
+	color: #fff;
+	background: #fdaead;
+	text-align: center;
+	padding: 10px 15px;
+	display: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.mobile-menu .show-menu span{
+   padding-left: 35px;
+}
+
+/*desaparecers checkbox*/
+.mobile-menu input[type=checkbox]{
+    display: none;
+}
+
+/*para mostrar menu cuando el checkbox este marcado*/
+.mobile-menu input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+/* Estilo Responsive*/
+
+@media screen and (max-width : 800px){
+  .mobile-menu .lines {
+    border-bottom: 15px double #f8f8f8; 
+    border-top: 5px solid #f8f8f8; 
+    content:"";
+    height: 5px; 
+    width:20px;
+    padding-right:15px;
+  float: right;
+}
+	/*Para enlaces deplegables que aparezcan en línea*/
+	.mobile-menu ul {
+		position: static;
+		display: none;
+	}
+	/*Espacio vertical*/
+	.mobile-menu li {
+		margin-bottom: 1px;
+	}
+	/*para hacer que los enlaces verticales del menú, sean del ancho completos */
+	.mobile-menu ul li, .mobile-menu li a {
+		width: 100%;
+	}
+	/*Mostrar menú*/
+	.mobile-menu .show-menu {
+		display:block;
+	}
 }
