@@ -1,5 +1,5 @@
 #secAboutMe{
-    background: #fdaead;
+    background: white;
     min-height:100vh;
     word-wrap: normal;
     padding: 5%;
@@ -10,11 +10,6 @@
 position: relative;
 margin-left: 45%;
 margin-right: 5%;
-
-
-
-    
-    
 
 }
 
