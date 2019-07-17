@@ -7,9 +7,11 @@
     
 }
 #secAboutMe p{
-position: relative;
-margin-left: 45%;
-margin-right: 5%;
+
+margin-left: 40%;
+
+margin-top: 30%;
+
 
 }
 
@@ -17,11 +19,12 @@ margin-right: 5%;
     width: 20%;
     height: 20%;
     margin-left: 15%; 
-    position: absolute;
-    margin-top: 10%;
+    margin-top: 1%;
+    
 
 }
-#secAboutMe h3{
-    margin-bottom: 20%;
-    text-align: center;
+ h3 #typed-strings {
+   margin-left: 30%;
+   
 }
+
