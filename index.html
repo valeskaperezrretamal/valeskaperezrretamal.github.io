@@ -33,7 +33,7 @@
     <nav class="mobile-menu"><div class="navBar">
             <label for="show-menu" class="show-menu"><span>Menu</span><div class="lines"></div></label>
             <input type="checkbox" id="show-menu">
-            <a href="#secStart"><img src="https://comps.canstockphoto.es/perfil-mujer-caricatura-eps-vectorial_csp32772148.jpg" ></a>
+            
            
             <ul id="menu">
               <li><a href="#secAboutMe">Sobre mi</a></li>
@@ -50,7 +50,8 @@
     
     
     <section id="secAboutMe">
-        <h3><div id="typed-strings">
+            <div id="me">
+        <div id="typed-strings">
                 <p>Me <em>Gusta</em> <strong>JavaScript</strong> </p>
                 <p>Me <em>Gusta</em> <strong>Diseño Web</strong> </p>
                 <p>Me <em>Gusta</em> <strong>Metodologías Ágile</strong> </p>
@@ -61,32 +62,34 @@
                 <p>Me <em>Gusta</em> <strong>Leer</strong> </p>
                 <p>Me <em>Gusta</em> <strong>Viajar</strong> </p>
                 <p>Me <em>Gusta</em> <strong>Comer</strong> </p>
-             </div> 
-            </h3>
-             <img src="./fotoPerfil.jpg">
-             
-            
-                 
-            
-            
-        <p>Valeska Pérez Retamal. Desarrolladora Front End y fonoaudiologa.
-                Formada como Desarrolladora en laboratoria, responsable, comprometida y emprendedora.
+             </div> <span id="typed"></span>
+            </div>
+            <div id="description">
+                    <div id="image">
+                            <img src="./fotoPerfil.jpg">
+                        </div>
+                <div id="presentation">
+              <strong><p>Valeska Pérez Retamal. Desarrolladora Front End y fonoaudiologa.
                 Tengo 32 año, soy apasionada por las nuevas tecnologias, nuevos lenguajes y lo que esto
-                puede hacer para mejorar la comunicación y binestar de las personas.
-                
-                Formada en trabajo a través de metodologias agiles y.</p>
+                puede hacer para mejorar la comunicación y  el bien estar de las personas.
+                Formada como Desarrolladora en laboratoria, comprometida, emprendedora, experiencia en 
+                trabajo colaborativo y metodologias ágiles.
+                </p></strong>
+            </div>
+              
+            </div>
             
            
             
     </section>
     <section id="secSkills">
         <h3>Mis Habilidades técnicas</h3>
-       <img data-aos="fade-up" class="js" src="javascript.png" alt="javascript">
-       <img data-aos="fade-up"class="html" src="html5.png" alt="HTML 5">
-       <img data-aos="fade-up"class="css" src="css3.png" alt="CSS 3">
-       <img data-aos="fade-up"class="react" src="react.png" alt="REACT">
-       <img data-aos="fade-up"class="git" src="git.png" alt="Git">
-       <img data-aos="fade-up"class="github" src="github.png" alt="GitHub">
+       <img data-aos="flip-left" data-aos-duration="2000" class="js" src="javascript.png" alt="javascript">
+       <img data-aos="flip-left" data-aos-duration="2000" class="html" src="html5.png" alt="HTML 5">
+       <img data-aos="flip-left" data-aos-duration="2000" class="css" src="css3.png" alt="CSS 3">
+       <img data-aos="flip-right" data-aos-duration="2000" class="react" src="react.png" alt="REACT">
+       <img data-aos="flip-right" data-aos-duration="2000" class="git" src="git.png" alt="Git">
+       <img data-aos="flip-right" data-aos-duration="2000" class="github" src="github.png" alt="GitHub">
 
     </section>
     <section id="secProject">
@@ -98,11 +101,11 @@
 
     </section>
     <section id="secContact">
-        <h3>Contactame</h3>
+        <h3 id="contact">Contactame</h3>
         <a title="linkedIn" href="https://www.linkedin.com/in/valeska-pérez-retamal-650a8a135/"><img class="lin" src="linkedin.png" alt="linkedin"></a>
         <a title="Gmail" href=""><img class="gmail" src="gmail.png" alt="Gmail"></a>
         <a title="GitHub" href="https://github.com/valeskaperezrretamal"><img class="githubdos" src="githubdos.png" alt="GitHub"></a>
-        <button type="button" class="btn btn-secondary">Volver</button>
+        
     </section>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>

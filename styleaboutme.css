@@ -6,25 +6,26 @@
     
     
 }
-#secAboutMe p{
-
-margin-left: 40%;
-
-margin-top: 30%;
-
+#description{
+    display: flex;
+    flex-direction: row;
+    margin-top: 140px;
 
 }
-
-#secAboutMe img{
-    width: 20%;
-    height: 20%;
-    margin-left: 15%; 
-    margin-top: 1%;
+#image img{
+    width: 60vh;
+    border-radius: 10px 10px 10px 10px;
     
-
 }
- h3 #typed-strings {
-   margin-left: 30%;
-   
+#image{
+   margin-right: 50px;
+}
+ #me{
+     margin-left: 400px;
+     margin-top: 20px;
+     font-size: 35px;
+}
+#presentation{
+    -moz-text-align-last: auto;
 }
 
