@@ -1,0 +1,23 @@
+{
+  "name": "valeskaperezrretamal.github.io",
+  "version": "1.0.0",
+  "description": "portafolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages-deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valeskaperezrretamal/valeskaperezrretamal.github.io.git"
+  },
+  "keywords": [
+    "portafolio"
+  ],
+  "author": "vale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valeskaperezrretamal/valeskaperezrretamal.github.io/issues"
+  },
+  "homepage": "https://github.com/valeskaperezrretamal/valeskaperezrretamal.github.io#readme"
+}
