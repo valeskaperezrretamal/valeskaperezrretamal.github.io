@@ -2,26 +2,56 @@
     background:#fdaead;
     min-height: 100vh;
     word-wrap: normal;
-    /*padding: 5%;*/
+    padding: 5%;
+    width: 100%;
 }
-#secContact{
-    height: 300px;
-}
+
 #secContact h3{
     text-align: center;
 }
 #secContact img{
-    margin: 10%;
-    margin-left: 18%;
+    display:block;
+    margin:auto;
     width: 60px;
 
 }
+
+
 .btn-secondary{
     position: fixed;
-   margin-left: 80%;
-   
+    margin-left: 80%;  
 }
+#contactinfo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+}
+#contactinfo div{
+    width: 30%;
 
+}
+#contactinfo div a{
+    text-align: center;
+}
+@media screen and (max-width : 800px){
+    #contactinfo{
+        flex-direction: column;
+        width: 90vw;
+        
+    }
+    #contactinfo div{
+        width: 100%;
+    }
+    #contactinfo div a{
+        width: 100%;
+    }
+    #contactinfo div a p{
+        width: 100%;
+    }
+}
 
 
 

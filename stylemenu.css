@@ -212,7 +212,7 @@ transition: all 0.4s ease 0s;
 
 /*desaparecers checkbox*/
 .mobile-menu input[type=checkbox]{
-    display: none;
+    display: block;
 }
 
 /*para mostrar menu cuando el checkbox este marcado*/
@@ -230,7 +230,7 @@ transition: all 0.4s ease 0s;
     height: 5px; 
     width:20px;
     padding-right:15px;
-  float: right;
+    float: right;
 }
 	/*Para enlaces deplegables que aparezcan en línea*/
 	.mobile-menu ul {
@@ -239,11 +239,12 @@ transition: all 0.4s ease 0s;
 	}
 	/*Espacio vertical*/
 	.mobile-menu li {
-		margin-bottom: 1px;
+    margin-bottom: 1px;
+    
 	}
 	/*para hacer que los enlaces verticales del menú, sean del ancho completos */
 	.mobile-menu ul li, .mobile-menu li a {
-		width: 100%;
+    width: 100%;
 	}
 	/*Mostrar menú*/
 	.mobile-menu .show-menu {

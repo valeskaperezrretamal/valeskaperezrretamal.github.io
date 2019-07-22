@@ -29,3 +29,30 @@
     -moz-text-align-last: auto;
 }
 
+
+@media screen and (max-width : 800px){
+    #description {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    #image img{
+        width: 100%;
+        border-radius: 10px 10px 10px 10px;
+    
+    }
+    #image{
+        margin-right: 0px;
+    }
+    #me {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        margin-left:5%;
+        font-size: 25px;
+        height: 20vh;
+  
+    }
+}
+ 
+
