@@ -208,7 +208,9 @@ transition: all 0.4s ease 0s;
 
 .mobile-menu .show-menu span{
   padding-left: 35px;
+  
 }
+
 
 /*desaparecers checkbox*/
 .mobile-menu input[type=checkbox]{
@@ -223,7 +225,7 @@ transition: all 0.4s ease 0s;
 /* Estilo Responsive*/
 
 @media screen and (max-width : 800px){
-  .mobile-menu .lines {
+  .mobile-menu  {
     border-bottom: 15px double #f8f8f8; 
     border-top: 5px solid #f8f8f8; 
     content:"";
@@ -232,6 +234,20 @@ transition: all 0.4s ease 0s;
     padding-right:15px;
     float: right;
 }
+.lines{
+  border-bottom: 15px;
+  border-top: 5px;
+  padding-right: 15px;
+  float: right;
+  margin-top: -6px;
+}
+  .lines span{
+    display: block;
+    width: 40px;
+    height: 4px;
+    background: white;
+    margin-top:7px;
+  }
 	/*Para enlaces deplegables que aparezcan en línea*/
 	.mobile-menu ul {
 		position: static;
@@ -245,6 +261,7 @@ transition: all 0.4s ease 0s;
 	/*para hacer que los enlaces verticales del menú, sean del ancho completos */
 	.mobile-menu ul li, .mobile-menu li a {
     width: 100%;
+    padding-left: 0;
 	}
 	/*Mostrar menú*/
 	.mobile-menu .show-menu {
